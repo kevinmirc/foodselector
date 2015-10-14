@@ -5,7 +5,7 @@ body {
 #demo {
   color: #fff;
   text-align: center;
-  font-size: 35px;
+  font-size: 140px;
 }
 
 
@@ -18,15 +18,15 @@ body {
 
   background-color: #039BE5;
   
-  width: 65px;
-  height: 22px;
+  width: 235px;
+  height: 88px;
 
   color: #ECEFF1;
 
-  font-size: 12px;
+  font-size: 48px;
   font-weight: bold;
   text-decoration: none;
-  
+
   cursor: pointer;
   border: none;
 
