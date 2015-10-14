@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Food Selector</title>
+      <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <p id="demo"></p>
+
+    <script type="text/javascript">
+      var restaurants = ["Joey Brooklyns", "Chipotle", "The Tavern", "Publix (Sub)", "Mazzaros", "Fortunatos", "Chinese", "Lemmon grass", "Bankok 9", "Chick-fal-a", "Trips Diner", "Dome Grill", "Bodega", "theAvenue", "Chipotle", "Five Guys", "Panera Bread", "Flippers", "Nitallys", "Tijuana Flats", "Casita Taqueria"]
+      var randomIndex = Math.floor(Math.random() * restaurants.length);
+      randomIndex = Math.round(randomIndex)
+      var selection = restaurants[randomIndex]
+      document.getElementById("demo").innerHTML = selection;
+    </script>
+
+    <button type="button" id="the-button" onclick="javascript:history.go(0)">. . .</button>
+  </body>
+</html>
